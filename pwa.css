@@ -1,0 +1,14 @@
+{"name": 
+    "Your Fitness App",
+    "short_name": "FitApp",
+    "description": "Your ultimate fitness tracker and workout planner.",
+    "start_url": "/","scope": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#7c3aed",
+    "icons": [{"src": "https://www.google.com/search?q=https://placehold.co/192x192/7c3aed/ffffff%3Ftext%3DF",
+    "sizes": "192x192",
+    "type": "image/png"},
+    {"src": "https://www.google.com/search?q=https://placehold.co/512x512/7c3aed/ffffff%3Ftext%3DF",
+    "sizes": "512x512",
+    "type": "image/png"}]}
