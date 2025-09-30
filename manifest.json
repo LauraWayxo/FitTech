@@ -1,0 +1,64 @@
+{
+    "background_color": "",
+    "categories": ["health & fitness", "news"],
+
+    "short_name": "mgh.",
+    "name": "make gym here.",
+    "description": "The Communal Fitness Experience Unlike Any Other. 
+                    This is the highly accessible platform to build an unshakable 
+                    mindset and a resilient body—together.
+                    Join our community today and begin your disciplined, 
+                    rewarding journey to Build Fortitude. Share Strength.", / what are other events apps doing as their descrption /
+    "icons": [
+        {
+            "src": "/mgh images/mghlogo.png"
+        }
+    ],
+    "theme_color": "#912117"
+
+    "display_override": "standalone",
+    "display": "tabbed",
+    "orientation": "any",
+    "related_applications": [
+        {
+            "prefer_related_applications": "true" ,
+            "platform": "webapp",
+            "url": ""
+
+        } 
+    ],
+    "shortcuts": [
+        {
+            "short_name": "Go Get Fit"
+            "name": "Search for Your Next Fit Experience & Go Get Fit"
+            "description": "Quickly Find Your next Health & Wellness Milestone"
+            "url": "/mghapp/home.html/search"
+        }
+    ]
+
+    "id": "https://mgh.tech/mghapp",
+    "start_url": "/mghapp/home.html", 
+    "scope": "/mghapp",
+    "scope_extensions": [
+        { "type": "origin", "origin": "/mghapp/login.html"
+            "type": "origin", "origin": "/mghapp/FitXO.html"
+            "type": "origin", "origin": "/mghapp/home.html"
+        }
+    ]
+    "launch-handler": {
+        "client_mode": "auto"
+    },
+
+    "protocol_handlers": [
+        {
+            "protocol": "mailto"
+            "url": "/mghapp/"
+        }
+    ]
+
+
+
+
+
+
+}
