@@ -1,16 +1,16 @@
-[debug] [2025-09-29T01:34:05.415Z] ----------------------------------------------------------------------
-[debug] [2025-09-29T01:34:05.417Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/a3jfkfzmr1h8lmk31a8fbchkg5sp12q9-firebase-tools-14.16.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
-[debug] [2025-09-29T01:34:05.418Z] CLI Version:   14.16.0
-[debug] [2025-09-29T01:34:05.418Z] Platform:      linux
-[debug] [2025-09-29T01:34:05.418Z] Node Version:  v20.19.1
-[debug] [2025-09-29T01:34:05.418Z] Time:          Mon Sep 29 2025 01:34:05 GMT+0000 (Coordinated Universal Time)
-[debug] [2025-09-29T01:34:05.418Z] ----------------------------------------------------------------------
+[debug] [2025-09-29T02:01:40.895Z] ----------------------------------------------------------------------
+[debug] [2025-09-29T02:01:40.897Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/a3jfkfzmr1h8lmk31a8fbchkg5sp12q9-firebase-tools-14.16.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-09-29T02:01:40.897Z] CLI Version:   14.16.0
+[debug] [2025-09-29T02:01:40.897Z] Platform:      linux
+[debug] [2025-09-29T02:01:40.898Z] Node Version:  v20.19.1
+[debug] [2025-09-29T02:01:40.898Z] Time:          Mon Sep 29 2025 02:01:40 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-09-29T02:01:40.898Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-09-29T01:34:05.422Z] No OAuth tokens found
-[debug] [2025-09-29T01:34:05.422Z] No OAuth tokens found
+[debug] [2025-09-29T02:01:40.901Z] No OAuth tokens found
+[debug] [2025-09-29T02:01:40.901Z] No OAuth tokens found
 [error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
-[debug] [2025-09-29T01:34:05.425Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-09-29T01:34:05.425Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
+[debug] [2025-09-29T02:01:40.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-09-29T02:01:40.904Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
