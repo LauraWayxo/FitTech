@@ -1,16 +1,16 @@
-[debug] [2025-09-29T02:01:40.895Z] ----------------------------------------------------------------------
-[debug] [2025-09-29T02:01:40.897Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/a3jfkfzmr1h8lmk31a8fbchkg5sp12q9-firebase-tools-14.16.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
-[debug] [2025-09-29T02:01:40.897Z] CLI Version:   14.16.0
-[debug] [2025-09-29T02:01:40.897Z] Platform:      linux
-[debug] [2025-09-29T02:01:40.898Z] Node Version:  v20.19.1
-[debug] [2025-09-29T02:01:40.898Z] Time:          Mon Sep 29 2025 02:01:40 GMT+0000 (Coordinated Universal Time)
-[debug] [2025-09-29T02:01:40.898Z] ----------------------------------------------------------------------
+[debug] [2025-10-03T08:32:36.776Z] ----------------------------------------------------------------------
+[debug] [2025-10-03T08:32:36.777Z] Command:       /nix/store/ws50yvm6vzlzf7jzz6n7xh4szddrack1-nodejs-20.19.1/bin/node /nix/store/a3jfkfzmr1h8lmk31a8fbchkg5sp12q9-firebase-tools-14.16.0/lib/node_modules/firebase-tools/lib/bin/firebase.js init hosting
+[debug] [2025-10-03T08:32:36.778Z] CLI Version:   14.16.0
+[debug] [2025-10-03T08:32:36.778Z] Platform:      linux
+[debug] [2025-10-03T08:32:36.778Z] Node Version:  v20.19.1
+[debug] [2025-10-03T08:32:36.778Z] Time:          Fri Oct 03 2025 08:32:36 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-10-03T08:32:36.778Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2025-09-29T02:01:40.901Z] No OAuth tokens found
-[debug] [2025-09-29T02:01:40.901Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:36.781Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:36.782Z] No OAuth tokens found
 [error] Failed to fetch Firebase Project from current Studio Workspace: Unable to refresh auth: not yet authenticated.
-[debug] [2025-09-29T02:01:40.904Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
-[debug] [2025-09-29T02:01:40.904Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
+[debug] [2025-10-03T08:32:36.784Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-03T08:32:36.785Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
 [info] 
      ######## #### ########  ######## ########     ###     ######  ########
      ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
@@ -29,3 +29,29 @@ You're about to initialize a Firebase project in this directory:
 [info] You can create multiple project aliases by running firebase use --add, 
 [info] but for now we'll just set up a default project.
 [info] 
+[debug] [2025-10-03T08:32:36.786Z] Using project from CLI flag: mghapp-22dc1
+[debug] [2025-10-03T08:32:36.787Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:36.787Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:36.787Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-03T08:32:36.787Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
+[debug] [2025-10-03T08:32:36.788Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 [none]
+[debug] [2025-10-03T08:32:37.125Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 200
+[debug] [2025-10-03T08:32:37.125Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 {"projectId":"mghapp-22dc1","projectNumber":"770065485879","displayName":"mghapp","name":"projects/mghapp-22dc1","resources":{"hostingSite":"mghapp-22dc1"},"state":"ACTIVE","etag":"1_854ece34-801a-474e-a140-57a7b23682ce"}
+[info] i  Using project mghapp-22dc1 (mghapp) 
+[info] 
+=== Hosting Setup
+[debug] [2025-10-03T08:32:37.133Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:37.133Z] No OAuth tokens found
+[debug] [2025-10-03T08:32:37.133Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/userinfo.email"]
+[debug] [2025-10-03T08:32:37.133Z] > authorizing via signed-in user (laurawmbogo@gmail.com)
+[debug] [2025-10-03T08:32:37.133Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 [none]
+[debug] [2025-10-03T08:32:37.417Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 200
+[debug] [2025-10-03T08:32:37.417Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/mghapp-22dc1 {"projectId":"mghapp-22dc1","projectNumber":"770065485879","displayName":"mghapp","name":"projects/mghapp-22dc1","resources":{"hostingSite":"mghapp-22dc1"},"state":"ACTIVE","etag":"1_854ece34-801a-474e-a140-57a7b23682ce"}
+[info] 
+[info] i  Detected a .git folder at /home/user/FitXO 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=506265272&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
